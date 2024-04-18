@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.input-field{
+    @apply flex gap-4 justify-center items-center;
+}
+.input{
+    @apply px-2 py-2 outline-none rounded-md text-black;
+}
